@@ -1,0 +1,132 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato" sans-serif ;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo{
+    color: #4F4F4F;
+    background-color: #F0FFFF;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #4F4F4F;
+    text-align: center;
+}
+/*imgs*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11{
+    position: relative; /*Se for colocar conteudo nas imgs*/
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover; /*ajusta o tamanho da img*/
+    background-position: center;
+    background-attachment: fixed; /*Aqui ta o segredo*/
+}
+
+.caixa1{
+    background-image: url(img/iniciando.jpg);
+}
+
+.caixa2{
+    background-image: url(img/space.jpg);
+}
+
+.caixa3{
+    background-image: url(img/mercurio.jpg);
+}
+
+.caixa4{
+    background-image: url(img/venus.jpg);
+}
+
+.caixa5{
+    background-image: url(img/terra.jpg);
+}
+
+.caixa6{
+    background-image: url(img/marte.png);
+}
+
+.caixa7{
+    background-image: url(img/jupiter.jpg);
+}
+
+.caixa8{
+    background-image: url(img/saturno.jpg);
+}
+
+.caixa9{
+    background-image: url(img/planeta-urano.jpg);
+}
+
+.caixa10{
+    background-image: url(img/netuno.jpg);
+}
+
+.caixa11{
+    background-image: url(img/olhando.jpg);
+}
+
+/*conteudo nas imgs*/
+.conteudo-titulo{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4682B4;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;  /*espaçamento*/
+}
+
+.conteudo p{
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: #192D4F;
+}
+
+.conteudo h3{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #031E4D;
+}
+
+.conteudo a{
+    color: #4682B4;
+    text-decoration: none;
+}
+
+.conteudo a:hover{
+    color: #1C1C1C;
+}
+
+
+footer{
+    padding: 80px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #4F4F4F;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img{
+    width: 30px;
+    height: 20;
+    margin: 6px;
+}
